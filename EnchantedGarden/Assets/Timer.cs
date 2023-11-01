@@ -2,6 +2,8 @@ using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.PlayerLoop;
+using UnityEngine.SceneManagement;
 using UnityEngine.UI;
 public class Timer : MonoBehaviour
 {
@@ -10,6 +12,8 @@ public class Timer : MonoBehaviour
     public Text timeText;
 
     public Text timeOver;
+
+    public string levelName;
 
     private void Start()
     {
@@ -27,12 +31,14 @@ public class Timer : MonoBehaviour
             }
             else
             {
-                Debug.Log("Time has run out!");
                 timeRemaining = 0;
                 timerIsRunning = false;
-                DisplayTextTimeOver();
+                // DisplayTextTimeOver();
             }
+
         }
+        if (timerIsRunning == false && Input.GetKeyDown("g"))
+            SceneManager.LoadScene(levelName, LoadSceneMode.Single);
     }
     void DisplayTime(float timeToDisplay)
     {
@@ -46,4 +52,17 @@ public class Timer : MonoBehaviour
     {
         timeOver.text = "Your time is over";
     }
+
+    void OnGUI()
+    {
+        if (timerIsRunning == false)
+            GUI.Box(new Rect(0, 50, 250, 25), "GAME OVER. Press 'g' " +
+            "to play again");
+    }
+
+
+
 }
+
+
+
