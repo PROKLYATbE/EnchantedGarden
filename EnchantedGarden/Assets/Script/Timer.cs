@@ -59,10 +59,4 @@ public class Timer : MonoBehaviour
             GUI.Box(new Rect(0, 50, 250, 25), "GAME OVER. Press 'g' " +
             "to play again");
     }
-
-
-
 }
-
-
-
