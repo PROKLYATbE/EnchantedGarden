@@ -7,13 +7,20 @@ using UnityEngine.SceneManagement;
 using UnityEngine.UI;
 public class Timer : MonoBehaviour
 {
-    public float timeRemaining = 10;
+    public float timeRemaining = 10.0f;
     public bool timerIsRunning = false;
     public Text timeText;
 
     public Text timeOver;
 
     public string levelName;
+
+    public static int totalClick = 0;
+
+    public const int numClicksForPenalty = 5;
+
+    public KeyCode mouseClick;
+
 
     private void Start()
     {
@@ -24,6 +31,15 @@ public class Timer : MonoBehaviour
     {
         if (timerIsRunning)
         {
+            if (Input.GetMouseButtonDown(0))
+                totalClick += 1;
+
+            if (totalClick >= numClicksForPenalty)
+            {
+                totalClick = 0;
+                timeRemaining -= 3.0f;
+            }
+
             if (timeRemaining > 0)
             {
                 timeRemaining -= Time.deltaTime;
@@ -35,6 +51,8 @@ public class Timer : MonoBehaviour
                 timerIsRunning = false;
                 // DisplayTextTimeOver();
             }
+
+
 
         }
         if (timerIsRunning == false && Input.GetKeyDown("g"))
@@ -59,9 +77,6 @@ public class Timer : MonoBehaviour
             GUI.Box(new Rect(0, 50, 250, 25), "GAME OVER. Press 'g' " +
             "to play again");
     }
-
-
-
 }
 
 
