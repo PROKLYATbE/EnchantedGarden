@@ -7,11 +7,17 @@ using UnityEngine.SceneManagement;
 using UnityEngine.UI;
 public class Timer : MonoBehaviour
 {
-    public float timeRemaining = 10;
+    public float timeRemaining = 20;
     public bool timerIsRunning = false;
     public Text timeText;
 
     public Text timeOver;
+
+    public static int totalClick = 0;
+
+    public const int numClicksForPenalty = 5;
+
+    public const int secondsTimePenalty = 5;
 
     public string levelName;
 
@@ -22,6 +28,15 @@ public class Timer : MonoBehaviour
     }
     void Update()
     {
+        if (Input.GetMouseButtonDown(0))
+            ++totalClick;
+
+        if (totalClick == numClicksForPenalty)
+        {
+            timeRemaining -= secondsTimePenalty;
+            totalClick = 0;
+        }
+
         if (timerIsRunning)
         {
             if (timeRemaining > 0)
@@ -35,7 +50,6 @@ public class Timer : MonoBehaviour
                 timerIsRunning = false;
                 // DisplayTextTimeOver();
             }
-
         }
         if (timerIsRunning == false && Input.GetKeyDown("g"))
             SceneManager.LoadScene(levelName, LoadSceneMode.Single);
