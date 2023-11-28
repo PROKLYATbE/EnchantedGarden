@@ -6,7 +6,7 @@ public class EscMenuButton : MonoBehaviour
 {
     public GameObject settingsMenu;
     public GameObject escButton;
-
+    /*
     public void Pause()
     {
         if (Time.timeScale == 1f)
@@ -14,7 +14,7 @@ public class EscMenuButton : MonoBehaviour
         else
             Time.timeScale = 1f;
     }
-
+    */
     public void OpenEscMenu()
     {
         settingsMenu.SetActive(true);
