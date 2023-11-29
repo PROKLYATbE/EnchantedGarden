@@ -52,7 +52,10 @@ public class Timer : MonoBehaviour
             }
         }
         if (timerIsRunning == false /* && Input.GetKeyDown("g") */)
-            SceneManager.LoadScene(levelName, LoadSceneMode.Single);
+        {
+            SceneManager.LoadScene("LoseScene");
+            //SceneManager.LoadScene(levelName, LoadSceneMode.Single);
+        } 
     }
     void DisplayTime(float timeToDisplay)
     {
