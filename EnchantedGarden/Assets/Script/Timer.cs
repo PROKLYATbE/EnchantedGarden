@@ -51,7 +51,7 @@ public class Timer : MonoBehaviour
                 // DisplayTextTimeOver();
             }
         }
-        if (timerIsRunning == false && Input.GetKeyDown("g"))
+        if (timerIsRunning == false /* && Input.GetKeyDown("g") */)
             SceneManager.LoadScene(levelName, LoadSceneMode.Single);
     }
     void DisplayTime(float timeToDisplay)
@@ -66,11 +66,12 @@ public class Timer : MonoBehaviour
     {
         timeOver.text = "Your time is over";
     }
-
+    /*
     void OnGUI()
     {
         if (timerIsRunning == false)
             GUI.Box(new Rect(0, 50, 250, 25), "GAME OVER. Press 'g' " +
             "to play again");
     }
+    */
 }
