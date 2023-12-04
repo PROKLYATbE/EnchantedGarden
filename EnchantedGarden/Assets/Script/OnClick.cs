@@ -9,7 +9,7 @@ public class OnClick : MonoBehaviour
 
     void OnMouseDown() {
         obj_txt = gameObject.name;
-        Destroy (gameObject);
-        Destroy (obj_name);
+        gameObject.SetActive(false);
+        obj_name.SetActive(false);
     }
 }
