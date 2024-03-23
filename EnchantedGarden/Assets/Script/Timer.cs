@@ -19,7 +19,7 @@ public class Timer : MonoBehaviour
 
     public const int secondsTimePenalty = 5;
 
-    public string levelName;
+    public int loseSceneNumber;
 
     private void Start()
     {
@@ -53,7 +53,7 @@ public class Timer : MonoBehaviour
         }
         if (timerIsRunning == false /* && Input.GetKeyDown("g") */)
         {
-            SceneManager.LoadScene("LoseScene");
+            SceneManager.LoadScene(loseSceneNumber);
             //SceneManager.LoadScene(levelName, LoadSceneMode.Single);
         } 
     }

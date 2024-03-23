@@ -9,11 +9,17 @@ public class Control : MonoBehaviour
 
 
     [SerializeField] Text coins;
+    [SerializeField] string lvlName;
     public static int countCoin = 0;
     public static int bonusCoin = 10;
 
     void Start()
     {
+        if (PlayerPrefs.GetInt(lvlName) == 1)
+        {
+            bonusCoin = 1;
+        }
+
         if (PlayerPrefs.HasKey("Coins"))
         {
             countCoin = PlayerPrefs.GetInt("Coins");

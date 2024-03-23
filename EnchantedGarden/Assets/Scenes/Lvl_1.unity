@@ -11260,6 +11260,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 2863884846923833578, guid: b654a38bb88a08346ae5ce309bc51453, type: 3}
+      propertyPath: loseSceneNumber
+      value: 5
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -11273,6 +11277,14 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 768989157610226741, guid: c1823c7175610e64aac2db98aee6fd8d, type: 3}
+      propertyPath: lvlName
+      value: Lvl1
+      objectReference: {fileID: 0}
+    - target: {fileID: 768989157610226741, guid: c1823c7175610e64aac2db98aee6fd8d, type: 3}
+      propertyPath: foundItem
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 768989157610226741, guid: c1823c7175610e64aac2db98aee6fd8d, type: 3}
       propertyPath: iteractiveObjs.Array.data[0]
       value: 
@@ -11349,6 +11361,10 @@ PrefabInstance:
       propertyPath: coins
       value: 
       objectReference: {fileID: 2011908660}
+    - target: {fileID: 2251603117168059427, guid: c1823c7175610e64aac2db98aee6fd8d, type: 3}
+      propertyPath: lvlName
+      value: Lvl1
+      objectReference: {fileID: 0}
     - target: {fileID: 6152871764117494967, guid: c1823c7175610e64aac2db98aee6fd8d, type: 3}
       propertyPath: m_Name
       value: Main Camera
