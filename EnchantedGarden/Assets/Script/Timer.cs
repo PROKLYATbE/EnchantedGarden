@@ -10,20 +10,19 @@ public class Timer : MonoBehaviour
     public float timeRemaining = 20;
     public bool timerIsRunning = false;
     public Text timeText;
-
     public Text timeOver;
 
     public static int totalClick = 0;
-
     public const int numClicksForPenalty = 5;
-
     public const int secondsTimePenalty = 5;
 
+    public string lvlName;
     public int loseSceneNumber;
 
     private void Start()
     {
-        // Starts the timer automatically
+        PlayerPrefs.SetFloat("TimeRemaining" + lvlName, 0);
+        PlayerPrefs.SetFloat("TimeTo" + lvlName, timeRemaining);
         timerIsRunning = true;
     }
     void Update()
@@ -35,6 +34,14 @@ public class Timer : MonoBehaviour
         {
             timeRemaining -= secondsTimePenalty;
             totalClick = 0;
+        }
+
+        if (PlayerPrefs.GetInt(EndGame.stateName) == PlayerPrefs.GetInt("ItemsToWin" + lvlName))
+        {
+            if (PlayerPrefs.GetFloat("TimeRemaining" + lvlName) < timeRemaining) 
+            { 
+                PlayerPrefs.SetFloat("TimeRemaining" + lvlName, timeRemaining); 
+            }
         }
 
         if (timerIsRunning)

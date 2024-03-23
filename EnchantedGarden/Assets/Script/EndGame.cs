@@ -13,6 +13,7 @@ public class EndGame : MonoBehaviour
     void Start()
     {
         stateName = "FoundItems" + lvlName;
+        PlayerPrefs.SetInt("ItemsToWin" +  lvlName, foundItem);
         PlayerPrefs.SetInt(lvlName, 0);
         PlayerPrefs.SetInt(stateName, 0);
     }
