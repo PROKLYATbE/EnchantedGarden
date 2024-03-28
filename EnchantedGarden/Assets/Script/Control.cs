@@ -5,11 +5,9 @@ using UnityEngine.UI;
 
 public class Control : MonoBehaviour
 {
-    [SerializeField] GameObject[] iteractiveObjs;
-
-
     [SerializeField] Text coins;
     [SerializeField] string lvlName;
+
     public static int countCoin = 0;
     public static int bonusCoin = 10;
 
