@@ -21,12 +21,6 @@ EditorBuildSettings:
     path: Assets/Scenes/Lvl_1_3.unity
     guid: f652bb3d21639ca45bd5eb3259cbf8ed
   - enabled: 1
-    path: Assets/Scenes/Lvl_2.unity
-    guid: da0b125d56320e1439a5385d505cc94c
-  - enabled: 1
-    path: Assets/Scenes/WinScene.unity
-    guid: 1a7872978987db246a636e215dd025ed
-  - enabled: 1
     path: Assets/Scenes/Lvl_1_1LoseScene.unity
     guid: fa337d8c72a705541ab414647cb721a6
   - enabled: 1
@@ -36,6 +30,24 @@ EditorBuildSettings:
     path: Assets/Scenes/Lvl_1_3LoseScene.unity
     guid: b65461f1ee306e348b986f7724bbdc49
   - enabled: 1
-    path: Assets/Scenes/Lvl2LoseScene.unity
+    path: Assets/Scenes/Lvl_2_1.unity
+    guid: da0b125d56320e1439a5385d505cc94c
+  - enabled: 1
+    path: Assets/Scenes/Lvl_2_2.unity
+    guid: d13f8be7310573144b168449371239d8
+  - enabled: 1
+    path: Assets/Scenes/Lvl_2_3.unity
+    guid: d34454706f05af84ebaaa487aee5a6c6
+  - enabled: 1
+    path: Assets/Scenes/Lvl_2_1LoseScene.unity
     guid: 7b7e52b875c4d65419170c1b05a381d3
+  - enabled: 1
+    path: Assets/Scenes/Lvl_2_2LoseScene.unity
+    guid: d64aaf84fd33fa3499dea97cfc20d159
+  - enabled: 1
+    path: Assets/Scenes/Lvl_2_3LoseScene.unity
+    guid: e89b4661016f470428d9d42abd493a93
+  - enabled: 1
+    path: Assets/Scenes/WinScene.unity
+    guid: 1a7872978987db246a636e215dd025ed
   m_configObjects: {}
