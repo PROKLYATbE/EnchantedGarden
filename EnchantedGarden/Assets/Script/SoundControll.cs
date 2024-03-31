@@ -6,10 +6,10 @@ using UnityEngine.SceneManagement;
 
 public class SoundControll : MonoBehaviour
 {
-    public GameObject BGMusic;  //Ваш объект с фоновой музыкой
+    public GameObject BGMusic;  //объект с фоновой музыкой
     private AudioSource audioSrc;
     public static float musicVolume;
-    public Slider VolValue; //Слайдер если нужна регулировка
+    public Slider VolValue; //Слайдер
     public GameObject[] objs1;
 
     void Awake()

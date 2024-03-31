@@ -1,25 +1,30 @@
 using System.Collections;
 using System.Collections.Generic;
+using System.Security.Cryptography.X509Certificates;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
 public class EndGame : MonoBehaviour
 {
-    public GameObject[] iteractiveObjs;
+    public string lvlName;
+    public static string cntFoundItemsStateName;
+    public static string cntFoundItemsToWinStateName;
+    public int foundItem;
 
-    void FixedUpdate()
+    void Start()
     {
-        bool flag = true;
-        foreach (var obj in iteractiveObjs)
+        cntFoundItemsStateName = "FoundItems" + lvlName;
+        cntFoundItemsToWinStateName = "ItemsToWin" + lvlName;
+        PlayerPrefs.SetInt(cntFoundItemsToWinStateName, foundItem);
+        PlayerPrefs.SetInt(lvlName, 0);
+        PlayerPrefs.SetInt(cntFoundItemsStateName, 0);
+    }
+
+    void Update()
+    {
+        if (PlayerPrefs.GetInt(cntFoundItemsStateName) == foundItem)
         {
-            if (obj.activeSelf)
-            {
-                flag = false;
-                break;
-            }
-        }
-        if (flag)
-        {
+            PlayerPrefs.SetInt(lvlName, 1);
             SceneManager.LoadScene("WinScene");
         }
     }
