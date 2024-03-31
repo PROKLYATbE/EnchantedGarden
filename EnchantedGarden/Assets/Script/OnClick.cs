@@ -16,7 +16,7 @@ public class OnClick : MonoBehaviour
 
         Control.countCoin += Control.bonusCoin;
 
-        int cntFoundItems = PlayerPrefs.GetInt(EndGame.stateName);
-        PlayerPrefs.SetInt(EndGame.stateName, cntFoundItems + 1);
+        int cntFoundItems = PlayerPrefs.GetInt(EndGame.cntFoundItemsStateName);
+        PlayerPrefs.SetInt(EndGame.cntFoundItemsStateName, cntFoundItems + 1);
     }
 }

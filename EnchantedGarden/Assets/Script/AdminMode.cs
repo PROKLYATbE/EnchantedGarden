@@ -16,13 +16,19 @@ public class AdminMode : MonoBehaviour
 
     public void Start()
     {
-        PlayerPrefs.SetInt(adminState, 0);
-        PlayerPrefs.SetInt(infMoneyState, 0);
-        resetStateButton.interactable = false;
-        addMoneyButton.interactable = false;
+        if (PlayerPrefs.GetInt(adminState) == 0)
+        {
+            resetStateButton.interactable = false;
+            addMoneyButton.interactable = false;
+        }
     }
     public void SetAdminState()
     {
+        if (!PlayerPrefs.HasKey(adminState))
+        {
+            PlayerPrefs.SetInt(adminState, 0);
+            PlayerPrefs.SetInt(infMoneyState, 0);
+        }
         if (PlayerPrefs.GetInt(adminState) == 0)
         {
             PlayerPrefs.SetInt (adminState, 1);

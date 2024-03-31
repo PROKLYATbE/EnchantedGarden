@@ -36,7 +36,7 @@ public class Timer : MonoBehaviour
             totalClick = 0;
         }
 
-        if (PlayerPrefs.GetInt(EndGame.stateName) == PlayerPrefs.GetInt("ItemsToWin" + lvlName))
+        if (PlayerPrefs.GetInt(EndGame.cntFoundItemsStateName) == PlayerPrefs.GetInt("ItemsToWin" + lvlName))
         {
             if (PlayerPrefs.GetFloat("TimeRemaining" + lvlName) < timeRemaining) 
             { 

@@ -26,7 +26,7 @@ public class Control : MonoBehaviour
         {
             countCoin = 0;
         }
-        coins.text = "Coins: " + countCoin.ToString();
+        coins.text = countCoin.ToString();
     }
 
     private void Update()
@@ -41,7 +41,7 @@ public class Control : MonoBehaviour
 
     public void UpdateText()
     {
-        coins.text = "Coins: " + countCoin.ToString();
+        coins.text = countCoin.ToString();
     }
 
     public void SaveBank()
