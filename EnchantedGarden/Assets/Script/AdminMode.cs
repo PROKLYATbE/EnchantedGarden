@@ -16,7 +16,7 @@ public class AdminMode : MonoBehaviour
 
     public void Start()
     {
-        if (PlayerPrefs.GetInt(adminState) == 0)
+        if (!PlayerPrefs.HasKey(adminState) || PlayerPrefs.GetInt(adminState) == 0)
         {
             resetStateButton.interactable = false;
             addMoneyButton.interactable = false;
@@ -50,6 +50,7 @@ public class AdminMode : MonoBehaviour
     public void ResetState()
     {
         PlayerPrefs.DeleteAll();
+        Control.countCoin = 0;
         PlayerPrefs.SetInt("Coins", 0);
         addMoneyButton.image.color = Color.white;
         PlayerPrefs.SetInt(infMoneyState, 0);
