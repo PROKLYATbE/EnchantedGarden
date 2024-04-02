@@ -2037,7 +2037,7 @@ PrefabInstance:
     - target: {fileID: 2251603117168059427, guid: c1823c7175610e64aac2db98aee6fd8d, type: 3}
       propertyPath: coins
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 1531089186}
     - target: {fileID: 2251603117168059427, guid: c1823c7175610e64aac2db98aee6fd8d, type: 3}
       propertyPath: lvlName
       value: Lvl5

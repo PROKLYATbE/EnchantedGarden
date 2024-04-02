@@ -31,6 +31,18 @@ class AdminMode : MonoBehaviour
             addMoneyButton.interactable = false;
             infTimeButton.interactable = false;
         }
+        if (PlayerPrefs.GetInt(adminState) == 1) 
+        {
+            thisButton.image.color = Color.green;
+        }
+        if (PlayerPrefs.GetInt(infMoneyState) == 1)
+        {
+            addMoneyButton.image.color = Color.green;
+        }
+        if (PlayerPrefs.GetInt(infTimeState) == 1)
+        {
+            infTimeButton.image.color = Color.green;
+        }
     }
     public
         void SetAdminState()
