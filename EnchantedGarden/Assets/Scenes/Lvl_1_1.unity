@@ -8717,7 +8717,7 @@ Transform:
   m_GameObject: {fileID: 1754478105}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: 0.7809385, w: 0.62460786}
-  m_LocalPosition: {x: 0.708, y: -1.753, z: 0}
+  m_LocalPosition: {x: 0.52, y: -1.68, z: 0}
   m_LocalScale: {x: 0.24968182, y: 0.24968182, z: 0.24968182}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -10903,7 +10903,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2863884846923833578, guid: b654a38bb88a08346ae5ce309bc51453, type: 3}
       propertyPath: timeRemaining
-      value: 300
+      value: 60
       objectReference: {fileID: 0}
     - target: {fileID: 2863884846923833578, guid: b654a38bb88a08346ae5ce309bc51453, type: 3}
       propertyPath: loseSceneNumber
