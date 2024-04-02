@@ -6,7 +6,7 @@ public class BuyItem : MonoBehaviour
 {
     [SerializeField] GameObject button;
     [SerializeField] GameObject garbage;
-    string garbageState = "Garbage";
+    public static string garbageState = "Garbage";
     int garbageDeleteCost = 50;
     void Start()
     {
