@@ -2213,7 +2213,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: -3
+  m_SortingOrder: -4
   m_Sprite: {fileID: 21300000, guid: 4fa4992a58fe0834f9ca5f149a3feb55, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -2362,7 +2362,7 @@ MonoBehaviour:
   m_ScaleFactor: 1
   m_ReferenceResolution: {x: 1920, y: 1080}
   m_ScreenMatchMode: 0
-  m_MatchWidthOrHeight: 1
+  m_MatchWidthOrHeight: 0
   m_PhysicalUnit: 3
   m_FallbackScreenDPI: 96
   m_DefaultSpriteDPI: 96
@@ -3296,8 +3296,8 @@ Transform:
   m_GameObject: {fileID: 656102874}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0.0252, y: -3.7121, z: 0}
-  m_LocalScale: {x: 0.07965246, y: 0.0985322, z: 0.0797}
+  m_LocalPosition: {x: 0.0252, y: -3.7674, z: 0}
+  m_LocalScale: {x: 0.07965246, y: 0.1026607, z: 0.0797}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 2018136747}
@@ -4225,7 +4225,7 @@ GameObject:
   - component: {fileID: 864268927}
   - component: {fileID: 864268928}
   m_Layer: 0
-  m_Name: LeftPanel
+  m_Name: LeftPanelSprite
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -4240,7 +4240,7 @@ Transform:
   m_GameObject: {fileID: 864268926}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -761.0436, y: 0.29160002, z: -10111.93}
+  m_LocalPosition: {x: -760.27, y: 0.29160002, z: -10111.93}
   m_LocalScale: {x: 38.510326, y: 46.33574, z: 42.336}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -5115,7 +5115,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2106138936447777696, guid: 434c2726e0dbb5d4482944f86b3c9a22, type: 3}
       propertyPath: m_MatchWidthOrHeight
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2106138936447777696, guid: 434c2726e0dbb5d4482944f86b3c9a22, type: 3}
       propertyPath: m_ReferenceResolution.x
@@ -5131,7 +5131,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2302567832697419121, guid: 434c2726e0dbb5d4482944f86b3c9a22, type: 3}
       propertyPath: m_AnchorMax.y
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2302567832697419121, guid: 434c2726e0dbb5d4482944f86b3c9a22, type: 3}
       propertyPath: m_AnchorMin.x
@@ -5143,7 +5143,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2652435969017641064, guid: 434c2726e0dbb5d4482944f86b3c9a22, type: 3}
       propertyPath: m_AnchorMax.y
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5979922148680651266, guid: 434c2726e0dbb5d4482944f86b3c9a22, type: 3}
       propertyPath: m_Name
@@ -6188,7 +6188,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: -1
+  m_SortingOrder: -2
   m_Sprite: {fileID: 21300000, guid: 50195689fa45aac48aa0e3940cccbddc, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -6436,7 +6436,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 1
   m_Sprite: {fileID: 21300000, guid: 7db97256a4459654581e467c7dfc5e0f, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -10449,7 +10449,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: -1
+  m_SortingOrder: -2
   m_Sprite: {fileID: 21300000, guid: 41b0643529a15db44bb498799d7a5b47, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -10834,7 +10834,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2863884846923833578, guid: b654a38bb88a08346ae5ce309bc51453, type: 3}
       propertyPath: lvlName
-      value: Lvl1_1
+      value: Lvl1
       objectReference: {fileID: 0}
     - target: {fileID: 2863884846923833578, guid: b654a38bb88a08346ae5ce309bc51453, type: 3}
       propertyPath: timeRemaining
@@ -10859,7 +10859,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 768989157610226741, guid: c1823c7175610e64aac2db98aee6fd8d, type: 3}
       propertyPath: lvlName
-      value: Lvl1_1
+      value: Lvl1
       objectReference: {fileID: 0}
     - target: {fileID: 768989157610226741, guid: c1823c7175610e64aac2db98aee6fd8d, type: 3}
       propertyPath: foundItem
@@ -10943,7 +10943,7 @@ PrefabInstance:
       objectReference: {fileID: 1954716258}
     - target: {fileID: 2251603117168059427, guid: c1823c7175610e64aac2db98aee6fd8d, type: 3}
       propertyPath: lvlName
-      value: Lvl1_1
+      value: Lvl1
       objectReference: {fileID: 0}
     - target: {fileID: 4809785865431372422, guid: c1823c7175610e64aac2db98aee6fd8d, type: 3}
       propertyPath: m_OcclusionCulling
@@ -10981,7 +10981,7 @@ SceneRoots:
   - {fileID: 5772884897740656804}
   - {fileID: 1017356363}
   - {fileID: 387641388}
-  - {fileID: 720653616}
   - {fileID: 2018136747}
   - {fileID: 2102027835}
   - {fileID: 1189313106}
+  - {fileID: 720653616}

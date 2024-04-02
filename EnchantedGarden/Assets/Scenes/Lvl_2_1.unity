@@ -834,6 +834,14 @@ PrefabInstance:
     m_TransformParent: {fileID: 1191730491}
     m_Modifications:
     - target: {fileID: 1851924831082714361, guid: 24e72e2a6b8edf2409d99a5cb75bf22b, type: 3}
+      propertyPath: m_FlipX
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1851924831082714361, guid: 24e72e2a6b8edf2409d99a5cb75bf22b, type: 3}
+      propertyPath: m_FlipY
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1851924831082714361, guid: 24e72e2a6b8edf2409d99a5cb75bf22b, type: 3}
       propertyPath: m_Size.x
       value: 48.526867
       objectReference: {fileID: 0}
@@ -847,7 +855,7 @@ PrefabInstance:
       objectReference: {fileID: 21300000, guid: bf3d641b4b75a80459fe2d5c1dc56a45, type: 3}
     - target: {fileID: 1851924831082714361, guid: 24e72e2a6b8edf2409d99a5cb75bf22b, type: 3}
       propertyPath: m_SortingOrder
-      value: -4
+      value: -5
       objectReference: {fileID: 0}
     - target: {fileID: 1851924831082714361, guid: 24e72e2a6b8edf2409d99a5cb75bf22b, type: 3}
       propertyPath: m_WasSpriteAssigned
@@ -859,23 +867,23 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7880490470039240797, guid: 24e72e2a6b8edf2409d99a5cb75bf22b, type: 3}
       propertyPath: m_LocalScale.x
-      value: 2.626383
+      value: 1.5779309
       objectReference: {fileID: 0}
     - target: {fileID: 7880490470039240797, guid: 24e72e2a6b8edf2409d99a5cb75bf22b, type: 3}
       propertyPath: m_LocalScale.y
-      value: 2.626383
+      value: 1.5779309
       objectReference: {fileID: 0}
     - target: {fileID: 7880490470039240797, guid: 24e72e2a6b8edf2409d99a5cb75bf22b, type: 3}
       propertyPath: m_LocalScale.z
-      value: 2.6263835
+      value: 1.5779312
       objectReference: {fileID: 0}
     - target: {fileID: 7880490470039240797, guid: 24e72e2a6b8edf2409d99a5cb75bf22b, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -8.42
+      value: -4.399
       objectReference: {fileID: 0}
     - target: {fileID: 7880490470039240797, guid: 24e72e2a6b8edf2409d99a5cb75bf22b, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -4.606
+      value: -2.348
       objectReference: {fileID: 0}
     - target: {fileID: 7880490470039240797, guid: 24e72e2a6b8edf2409d99a5cb75bf22b, type: 3}
       propertyPath: m_LocalPosition.z
@@ -972,7 +980,7 @@ MonoBehaviour:
   m_ScaleFactor: 1
   m_ReferenceResolution: {x: 1920, y: 1080}
   m_ScreenMatchMode: 0
-  m_MatchWidthOrHeight: 1
+  m_MatchWidthOrHeight: 0
   m_PhysicalUnit: 3
   m_FallbackScreenDPI: 96
   m_DefaultSpriteDPI: 96
@@ -1540,7 +1548,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 768989157610226741, guid: c1823c7175610e64aac2db98aee6fd8d, type: 3}
       propertyPath: lvlName
-      value: Lvl2_1
+      value: Lvl4
       objectReference: {fileID: 0}
     - target: {fileID: 768989157610226741, guid: c1823c7175610e64aac2db98aee6fd8d, type: 3}
       propertyPath: foundItem
@@ -1596,7 +1604,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2251603117168059427, guid: c1823c7175610e64aac2db98aee6fd8d, type: 3}
       propertyPath: lvlName
-      value: Lvl2_1
+      value: Lvl4
       objectReference: {fileID: 0}
     - target: {fileID: 4809785865431372422, guid: c1823c7175610e64aac2db98aee6fd8d, type: 3}
       propertyPath: m_BackGroundColor.b
@@ -4845,7 +4853,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2863884846923833578, guid: b654a38bb88a08346ae5ce309bc51453, type: 3}
       propertyPath: lvlName
-      value: Lvl2_1
+      value: Lvl4
       objectReference: {fileID: 0}
     - target: {fileID: 2863884846923833578, guid: b654a38bb88a08346ae5ce309bc51453, type: 3}
       propertyPath: levelName
@@ -4853,7 +4861,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2863884846923833578, guid: b654a38bb88a08346ae5ce309bc51453, type: 3}
       propertyPath: timeRemaining
-      value: 300
+      value: 60
       objectReference: {fileID: 0}
     - target: {fileID: 2863884846923833578, guid: b654a38bb88a08346ae5ce309bc51453, type: 3}
       propertyPath: loseSceneNumber

@@ -1932,7 +1932,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 768989157610226741, guid: c1823c7175610e64aac2db98aee6fd8d, type: 3}
       propertyPath: lvlName
-      value: Lvl2_2
+      value: Lvl5
       objectReference: {fileID: 0}
     - target: {fileID: 768989157610226741, guid: c1823c7175610e64aac2db98aee6fd8d, type: 3}
       propertyPath: foundItem
@@ -1988,7 +1988,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2251603117168059427, guid: c1823c7175610e64aac2db98aee6fd8d, type: 3}
       propertyPath: lvlName
-      value: Lvl2_2
+      value: Lvl5
       objectReference: {fileID: 0}
     - target: {fileID: 4809785865431372422, guid: c1823c7175610e64aac2db98aee6fd8d, type: 3}
       propertyPath: m_BackGroundColor.b
@@ -5586,7 +5586,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2863884846923833578, guid: b654a38bb88a08346ae5ce309bc51453, type: 3}
       propertyPath: lvlName
-      value: Lvl2_2
+      value: Lvl5
       objectReference: {fileID: 0}
     - target: {fileID: 2863884846923833578, guid: b654a38bb88a08346ae5ce309bc51453, type: 3}
       propertyPath: levelName
@@ -5594,7 +5594,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2863884846923833578, guid: b654a38bb88a08346ae5ce309bc51453, type: 3}
       propertyPath: timeRemaining
-      value: 300
+      value: 60
       objectReference: {fileID: 0}
     - target: {fileID: 2863884846923833578, guid: b654a38bb88a08346ae5ce309bc51453, type: 3}
       propertyPath: loseSceneNumber
