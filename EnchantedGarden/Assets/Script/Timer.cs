@@ -23,7 +23,11 @@ public class Timer : MonoBehaviour
     {
         PlayerPrefs.SetFloat("TimeRemaining" + lvlName, 0);
         PlayerPrefs.SetFloat("TimeTo" + lvlName, timeRemaining);
-        timerIsRunning = true;
+        if (!PlayerPrefs.HasKey(AdminMode.infTimeState) ||
+            PlayerPrefs.GetInt(AdminMode.infTimeState) == 0)
+        {
+            timerIsRunning = true;
+        }
     }
     void Update()
     {
@@ -38,9 +42,9 @@ public class Timer : MonoBehaviour
 
         if (PlayerPrefs.GetInt(EndGame.cntFoundItemsStateName) == PlayerPrefs.GetInt("ItemsToWin" + lvlName))
         {
-            if (PlayerPrefs.GetFloat("TimeRemaining" + lvlName) < timeRemaining) 
-            { 
-                PlayerPrefs.SetFloat("TimeRemaining" + lvlName, timeRemaining); 
+            if (PlayerPrefs.GetFloat("TimeRemaining" + lvlName) < timeRemaining)
+            {
+                PlayerPrefs.SetFloat("TimeRemaining" + lvlName, timeRemaining);
             }
         }
 
@@ -62,7 +66,7 @@ public class Timer : MonoBehaviour
         {
             SceneManager.LoadScene(loseSceneNumber);
             //SceneManager.LoadScene(levelName, LoadSceneMode.Single);
-        } 
+        }
     }
     void DisplayTime(float timeToDisplay)
     {
