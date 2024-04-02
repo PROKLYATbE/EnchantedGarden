@@ -21,6 +21,16 @@ public class AdminMode : MonoBehaviour
             resetStateButton.interactable = false;
             addMoneyButton.interactable = false;
         }
+        else if(PlayerPrefs.GetInt(adminState) == 1)
+        {
+            thisButton.image.color = Color.green;
+            resetStateButton.interactable = true;
+            addMoneyButton.interactable = true;
+        }
+        if (PlayerPrefs.GetInt(infMoneyState) == 1)
+        {
+            addMoneyButton.image.color = Color.green;
+        }
     }
     public void SetAdminState()
     {
@@ -55,6 +65,7 @@ public class AdminMode : MonoBehaviour
         addMoneyButton.image.color = Color.white;
         PlayerPrefs.SetInt(infMoneyState, 0);
         PlayerPrefs.SetInt(adminState, 1);
+        SceneManager.LoadScene(SceneManager.GetActiveScene().name);
     }
 
     public void infinityMoney()
