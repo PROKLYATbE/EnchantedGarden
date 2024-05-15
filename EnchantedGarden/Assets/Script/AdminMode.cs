@@ -44,7 +44,7 @@ class AdminMode : MonoBehaviour
             infTimeButton.image.color = Color.green;
         }
     }
-    public
+    public 
         void SetAdminState()
     {
         if (!PlayerPrefs.HasKey(adminState))
@@ -86,6 +86,7 @@ class AdminMode : MonoBehaviour
         PlayerPrefs.SetInt(infMoneyState, 0);
         PlayerPrefs.SetInt(adminState, 1);
         PlayerPrefs.SetInt(infTimeState, 0);
+        SceneManager.LoadScene("StartMenu");
     }
 
     public

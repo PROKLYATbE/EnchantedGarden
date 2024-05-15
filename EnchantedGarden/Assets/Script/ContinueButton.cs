@@ -11,6 +11,5 @@ public class ContinueButton : MonoBehaviour
     {
         settingsMenu.SetActive(false);
         escButton.SetActive(true);
-        Time.timeScale = 1f;
     }
 }

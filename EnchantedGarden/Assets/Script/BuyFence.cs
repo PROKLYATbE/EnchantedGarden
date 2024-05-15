@@ -11,6 +11,11 @@ public class BuyFence : MonoBehaviour
     [SerializeField] int cost = 20;
     void Start()
     {
+        initialize();
+    }
+
+    public void initialize() 
+    {
         if (PlayerPrefs.GetInt(stateName) == 1)
         {
             foreach (var gameObject in gameObjects)
