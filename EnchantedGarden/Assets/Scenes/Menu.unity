@@ -2567,7 +2567,7 @@ GameObject:
   - component: {fileID: 1309399184}
   - component: {fileID: 1309399188}
   m_Layer: 5
-  m_Name: Lvl_2_Button
+  m_Name: Lvl_2_1 Button
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2993,7 +2993,7 @@ GameObject:
   - component: {fileID: 1360273957}
   - component: {fileID: 1360273960}
   - component: {fileID: 1360273959}
-  - component: {fileID: 1360273961}
+  - component: {fileID: 1360273963}
   - component: {fileID: 1360273958}
   - component: {fileID: 1360273962}
   m_Layer: 5
@@ -3067,9 +3067,9 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1360273961}
-        m_TargetAssemblyTypeName: LoadSceneButton, Assembly-CSharp
-        m_MethodName: LoadScene
+      - m_Target: {fileID: 1360273963}
+        m_TargetAssemblyTypeName: LoadLvlScene, Assembly-CSharp
+        m_MethodName: loadRandomLvl
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -3117,19 +3117,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1360273956}
   m_CullTransparentMesh: 0
---- !u!114 &1360273961
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1360273956}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 43bf04c445ef0604e9220122e38fad49, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  sceneNumber: 2
 --- !u!114 &1360273962
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3142,6 +3129,25 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c6a5e5ec4d987a64784bd85073cef4bf, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &1360273963
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1360273956}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cde2db33d22cea44da6880dbc87b9afc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  lvlNames:
+  - Lvl_1_1 ver1
+  - Lvl_1_1 ver2
+  - Lvl_1_1 ver3
+  - Lvl_1_1 ver4
+  - Lvl_1_1 ver5
+  - Lvl_1_1 ver6
 --- !u!1 &1377348716
 GameObject:
   m_ObjectHideFlags: 0
@@ -4145,7 +4151,7 @@ GameObject:
   - component: {fileID: 1841878869}
   - component: {fileID: 1841878873}
   - component: {fileID: 1841878872}
-  - component: {fileID: 1841878871}
+  - component: {fileID: 1841878875}
   - component: {fileID: 1841878870}
   - component: {fileID: 1841878874}
   m_Layer: 5
@@ -4219,9 +4225,9 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1841878871}
-        m_TargetAssemblyTypeName: LoadSceneButton, Assembly-CSharp
-        m_MethodName: LoadScene
+      - m_Target: {fileID: 1841878875}
+        m_TargetAssemblyTypeName: LoadLvlScene, Assembly-CSharp
+        m_MethodName: loadRandomLvl
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -4231,19 +4237,6 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
---- !u!114 &1841878871
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1841878868}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 43bf04c445ef0604e9220122e38fad49, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  sceneNumber: 3
 --- !u!114 &1841878872
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4294,6 +4287,25 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c6a5e5ec4d987a64784bd85073cef4bf, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &1841878875
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1841878868}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cde2db33d22cea44da6880dbc87b9afc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  lvlNames:
+  - Lvl_1_2 ver1
+  - Lvl_1_2 ver2
+  - Lvl_1_2 ver3
+  - Lvl_1_2 ver4
+  - Lvl_1_2 ver5
+  - Lvl_1_2 ver6
 --- !u!1 &1881420090
 GameObject:
   m_ObjectHideFlags: 0
