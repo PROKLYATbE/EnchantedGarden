@@ -21,8 +21,13 @@ public class Timer : MonoBehaviour
 
     private void Start()
     {
-        PlayerPrefs.SetFloat("TimeRemaining" + lvlName, 0);
+        if (!PlayerPrefs.HasKey("TimeRemaining" + lvlName))
+        {
+            PlayerPrefs.SetFloat("TimeRemaining" + lvlName, 0);
+        }
+
         PlayerPrefs.SetFloat("TimeTo" + lvlName, timeRemaining);
+
         if (PlayerPrefs.HasKey(AdminMode.infTimeState) &&
             PlayerPrefs.GetInt(AdminMode.infTimeState) == 1)
         {
