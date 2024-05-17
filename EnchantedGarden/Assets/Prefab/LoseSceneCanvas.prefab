@@ -359,8 +359,8 @@ GameObject:
   - component: {fileID: 2022526763623257463}
   - component: {fileID: 7967764833834162953}
   - component: {fileID: 2964780110428531763}
-  - component: {fileID: 1164060851935593139}
   - component: {fileID: 3329537887403009831}
+  - component: {fileID: 8645864704056475748}
   m_Layer: 5
   m_Name: Restart
   m_TagString: Untagged
@@ -469,9 +469,9 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1164060851935593139}
-        m_TargetAssemblyTypeName: LoadSceneButton, Assembly-CSharp
-        m_MethodName: LoadScene
+      - m_Target: {fileID: 8645864704056475748}
+        m_TargetAssemblyTypeName: LoadLvlScene, Assembly-CSharp
+        m_MethodName: loadRandomLvl
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -481,19 +481,6 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
---- !u!114 &1164060851935593139
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8110088056385463353}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 43bf04c445ef0604e9220122e38fad49, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  sceneNumber: 2
 --- !u!114 &3329537887403009831
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -506,3 +493,22 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c6a5e5ec4d987a64784bd85073cef4bf, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &8645864704056475748
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8110088056385463353}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cde2db33d22cea44da6880dbc87b9afc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  lvlNames:
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 

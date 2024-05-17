@@ -379,6 +379,30 @@ PrefabInstance:
       propertyPath: m_Camera
       value: 
       objectReference: {fileID: 1193117917}
+    - target: {fileID: 8645864704056475748, guid: ec70b4b992e78d0418f6c10cdb1bdad3, type: 3}
+      propertyPath: lvlNames.Array.data[0]
+      value: Lvl_1_1 ver1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8645864704056475748, guid: ec70b4b992e78d0418f6c10cdb1bdad3, type: 3}
+      propertyPath: lvlNames.Array.data[1]
+      value: Lvl_1_1 ver2
+      objectReference: {fileID: 0}
+    - target: {fileID: 8645864704056475748, guid: ec70b4b992e78d0418f6c10cdb1bdad3, type: 3}
+      propertyPath: lvlNames.Array.data[2]
+      value: Lvl_1_1 ver3
+      objectReference: {fileID: 0}
+    - target: {fileID: 8645864704056475748, guid: ec70b4b992e78d0418f6c10cdb1bdad3, type: 3}
+      propertyPath: lvlNames.Array.data[3]
+      value: Lvl_1_1 ver4
+      objectReference: {fileID: 0}
+    - target: {fileID: 8645864704056475748, guid: ec70b4b992e78d0418f6c10cdb1bdad3, type: 3}
+      propertyPath: lvlNames.Array.data[4]
+      value: Lvl_1_1 ver5
+      objectReference: {fileID: 0}
+    - target: {fileID: 8645864704056475748, guid: ec70b4b992e78d0418f6c10cdb1bdad3, type: 3}
+      propertyPath: lvlNames.Array.data[5]
+      value: Lvl_1_1 ver6
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
