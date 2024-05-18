@@ -5,48 +5,53 @@ using UnityEngine.UI;
 
 public class BuyAllTrees : MonoBehaviour
 {
-    [SerializeField] GameObject button;
+    [SerializeField] GameObject[] buttons;
     [SerializeField] GameObject[] gameObjects;
-    public static string stateName = "Trees";
+    [SerializeField] Text[] textCost;
+    public static string[] stateNames = { "Tree", 
+                                         "Tree2",
+                                         "Tree3" };
     [SerializeField] int cost = 100;
     void Start()
     {
-        if (PlayerPrefs.GetInt(stateName) == 1)
+        foreach (Text t in textCost)
         {
-            foreach (var gameObject in gameObjects)
+            t.text = cost.ToString();
+        }
+        for (int i = 0; i < gameObjects.Length; i++)
+        {
+            if (PlayerPrefs.GetInt(stateNames[i]) == 1)
             {
-                gameObject.SetActive(true);
+                gameObjects[i].SetActive(true);
+                buttons[i].GetComponent<Image>().color = Color.green;
             }
-            button.GetComponent<Image>().color = Color.green;
         }
     }
 
-    public void BuyAllTreesBut()
+    public void buyTree(int i)
     {
-        if (!PlayerPrefs.HasKey(stateName))
+        if (!PlayerPrefs.HasKey(stateNames[i]))
         {
-            PlayerPrefs.SetInt(stateName, 0);
+            PlayerPrefs.SetInt(stateNames[i], 0);
+        }
+        if (PlayerPrefs.GetInt(stateNames[i]) == 1)
+        {
+            return;
         }
         if (PlayerPrefs.GetInt(BuyItem.garbageState) == 1)
         {
             if (PlayerPrefs.GetInt(AdminMode.infMoneyState) == 1)
             {
-                foreach (var gameObject in gameObjects)
-                {
-                    gameObject.SetActive(true);
-                }
-                button.GetComponent<Image>().color = Color.green;
-                PlayerPrefs.SetInt(stateName, 1);
+                gameObjects[i].SetActive(true);
+                buttons[i].GetComponent<Image>().color = Color.green;
+                PlayerPrefs.SetInt(stateNames[i], 1);
             }
             else if (Control.countCoin >= cost)
             {
                 Control.countCoin -= cost;
-                foreach (var gameObject in gameObjects)
-                {
-                    gameObject.SetActive(true);
-                }
-                button.GetComponent<Image>().color = Color.green;
-                PlayerPrefs.SetInt(stateName, 1);
+                gameObjects[i].SetActive(true);
+                buttons[i].GetComponent<Image>().color = Color.green;
+                PlayerPrefs.SetInt(stateNames[i], 1);
             }
         }
     }

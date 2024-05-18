@@ -3,13 +3,13 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
-public class BuyFountain : MonoBehaviour
+public class BuySwing : MonoBehaviour
 {
     [SerializeField] GameObject button;
     [SerializeField] GameObject[] gameObjects;
     [SerializeField] Text[] textCost;
-    public static string stateName = "Fontain";
-    [SerializeField] int cost = 50;
+    public static string stateName = "Swing";
+    [SerializeField] int cost = 20;
     void Start()
     {
         foreach (Text t in textCost)
@@ -27,7 +27,7 @@ public class BuyFountain : MonoBehaviour
         }
     }
 
-    public void buyFountain()
+    public void buySwing()
     {
         if (!PlayerPrefs.HasKey(stateName))
         {
