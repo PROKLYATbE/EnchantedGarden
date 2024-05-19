@@ -3288,6 +3288,30 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 1493886169892516682, guid: c1823c7175610e64aac2db98aee6fd8d, type: 3}
+      propertyPath: gos.Array.size
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 1493886169892516682, guid: c1823c7175610e64aac2db98aee6fd8d, type: 3}
+      propertyPath: gos.Array.data[0]
+      value: 
+      objectReference: {fileID: 1079750293}
+    - target: {fileID: 1493886169892516682, guid: c1823c7175610e64aac2db98aee6fd8d, type: 3}
+      propertyPath: gos.Array.data[1]
+      value: 
+      objectReference: {fileID: 1984481446}
+    - target: {fileID: 1493886169892516682, guid: c1823c7175610e64aac2db98aee6fd8d, type: 3}
+      propertyPath: gos.Array.data[2]
+      value: 
+      objectReference: {fileID: 2026944852}
+    - target: {fileID: 1493886169892516682, guid: c1823c7175610e64aac2db98aee6fd8d, type: 3}
+      propertyPath: gos.Array.data[3]
+      value: 
+      objectReference: {fileID: 980197173}
+    - target: {fileID: 1493886169892516682, guid: c1823c7175610e64aac2db98aee6fd8d, type: 3}
+      propertyPath: gos.Array.data[4]
+      value: 
+      objectReference: {fileID: 77584847}
     - target: {fileID: 2251603117168059427, guid: c1823c7175610e64aac2db98aee6fd8d, type: 3}
       propertyPath: coins
       value: 
@@ -3509,6 +3533,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 67db9e8f0e2ae9c40bc1e2b64352a6b4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!1 &1079750293 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 5979922148680651266, guid: 434c2726e0dbb5d4482944f86b3c9a22, type: 3}
+  m_PrefabInstance: {fileID: 1079750291}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1120146399
 GameObject:
   m_ObjectHideFlags: 0
@@ -5514,7 +5543,7 @@ Transform:
   m_GameObject: {fileID: 1570687278}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: 0.74967724, w: 0.66180366}
-  m_LocalPosition: {x: 2.17, y: -2.66, z: 0}
+  m_LocalPosition: {x: 2.012, y: -2.755, z: 0}
   m_LocalScale: {x: 0.08699233, y: 0.08699233, z: 0.08699232}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -5635,9 +5664,9 @@ PolygonCollider2D:
       - {x: 1.0322433, y: 9.142765}
       - {x: 2.1481812, y: 8.37859}
       - {x: 1.9097327, y: 6.0072517}
-      - {x: 4.4822745, y: 3.1793156}
-      - {x: 3.4287894, y: 0.60729456}
-      - {x: -0.0003042221, y: 1.6953199}
+      - {x: 0.5553162, y: -5.491172}
+      - {x: -0.80922616, y: -5.244317}
+      - {x: -2.4264739, y: -1.2868636}
   m_UseDelaunayMesh: 0
 --- !u!1 &1601542281
 GameObject:
@@ -6223,15 +6252,29 @@ PolygonCollider2D:
     - - {x: -35.518738, y: 10.060099}
       - {x: -27.063717, y: 12.041021}
       - {x: -6.2709923, y: 4.7249994}
+      - {x: 0.17700887, y: 10.626143}
+      - {x: 5.260436, y: 12.353923}
+      - {x: 5.5185695, y: 15.562692}
       - {x: 8.567787, y: 19.221703}
       - {x: 9.927032, y: 18.657473}
       - {x: 12.92327, y: 15.821791}
-      - {x: 9.2589, y: 7.138107}
-      - {x: 9.202776, y: -13.773205}
+      - {x: 14.81432, y: 11.747915}
+      - {x: 19.616596, y: 9.719505}
+      - {x: 23.54697, y: 6.16335}
+      - {x: 27.800245, y: 10.405702}
+      - {x: 33.105232, y: 11.343038}
+      - {x: 35.587498, y: 7.4968724}
+      - {x: 35.361053, y: -3.0907826}
+      - {x: 32.018936, y: -9.363893}
+      - {x: 26.201809, y: -7.6789603}
+      - {x: 21.79553, y: -12.237259}
+      - {x: 15.703799, y: -14.718832}
       - {x: 17.690598, y: -18.517525}
-      - {x: -0.0837664, y: -17.686237}
+      - {x: 3.932264, y: -19.242083}
+      - {x: -0.20196456, y: -17.922644}
       - {x: 2.6918697, y: -14.207429}
       - {x: -5.508177, y: -10.603567}
+      - {x: -16.690952, y: 0.76888525}
       - {x: -25.783743, y: 6.2008667}
       - {x: -34.538807, y: 7.917407}
   m_UseDelaunayMesh: 0

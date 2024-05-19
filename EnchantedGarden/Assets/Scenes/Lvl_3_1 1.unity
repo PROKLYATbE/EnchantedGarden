@@ -1466,25 +1466,23 @@ PolygonCollider2D:
   m_AutoTiling: 0
   m_Points:
     m_Paths:
-    - - {x: -0.52099895, y: -19.963491}
-      - {x: 16.851036, y: -19.743557}
-      - {x: 19.263655, y: -14.380686}
-      - {x: 19.737637, y: -8.8539295}
-      - {x: 23.569221, y: -6.8333354}
-      - {x: 25.921057, y: 4.149205}
-      - {x: 24.93966, y: 11.655851}
-      - {x: 20.4659, y: 17.949055}
-      - {x: 8.6436825, y: 20.955667}
-      - {x: -2.6356049, y: 16.713428}
-      - {x: -7.237933, y: 6.298661}
-      - {x: -6.3594837, y: -2.697351}
-      - {x: -17.5695, y: 12.524103}
-      - {x: -17.978096, y: 19.621925}
-      - {x: -23.005302, y: 17.32993}
-      - {x: -26.534786, y: 13.319039}
-      - {x: -20.671846, y: 11.36116}
-      - {x: -4.7280264, y: -13.38888}
-      - {x: -4.8134403, y: -16.698488}
+    - - {x: -7.996397, y: -20.183357}
+      - {x: 1.9524966, y: -19.962345}
+      - {x: 3.8790352, y: -17.874708}
+      - {x: 4.72679, y: -14.196181}
+      - {x: 20.588701, y: 11.001713}
+      - {x: 26.396296, y: 13.121881}
+      - {x: 24.281305, y: 16.106285}
+      - {x: 21.349325, y: 18.301762}
+      - {x: 17.741339, y: 19.347754}
+      - {x: 17.68953, y: 13.469503}
+      - {x: 5.980177, y: -2.739379}
+      - {x: 6.994422, y: 6.1990013}
+      - {x: 5.5081296, y: 7.3530583}
+      - {x: 4.463428, y: 12.305729}
+      - {x: 2.0079737, y: 16.360348}
+      - {x: -3.2881374, y: 19.273445}
+      - {x: -8.329346, y: 20.247953}
   m_UseDelaunayMesh: 0
 --- !u!114 &198029555
 MonoBehaviour:
@@ -3288,6 +3286,30 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 1493886169892516682, guid: c1823c7175610e64aac2db98aee6fd8d, type: 3}
+      propertyPath: gos.Array.size
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 1493886169892516682, guid: c1823c7175610e64aac2db98aee6fd8d, type: 3}
+      propertyPath: gos.Array.data[0]
+      value: 
+      objectReference: {fileID: 1079750293}
+    - target: {fileID: 1493886169892516682, guid: c1823c7175610e64aac2db98aee6fd8d, type: 3}
+      propertyPath: gos.Array.data[1]
+      value: 
+      objectReference: {fileID: 1984481446}
+    - target: {fileID: 1493886169892516682, guid: c1823c7175610e64aac2db98aee6fd8d, type: 3}
+      propertyPath: gos.Array.data[2]
+      value: 
+      objectReference: {fileID: 2026944852}
+    - target: {fileID: 1493886169892516682, guid: c1823c7175610e64aac2db98aee6fd8d, type: 3}
+      propertyPath: gos.Array.data[3]
+      value: 
+      objectReference: {fileID: 980197173}
+    - target: {fileID: 1493886169892516682, guid: c1823c7175610e64aac2db98aee6fd8d, type: 3}
+      propertyPath: gos.Array.data[4]
+      value: 
+      objectReference: {fileID: 77584847}
     - target: {fileID: 2251603117168059427, guid: c1823c7175610e64aac2db98aee6fd8d, type: 3}
       propertyPath: coins
       value: 
@@ -3509,6 +3531,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 67db9e8f0e2ae9c40bc1e2b64352a6b4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!1 &1079750293 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 5979922148680651266, guid: 434c2726e0dbb5d4482944f86b3c9a22, type: 3}
+  m_PrefabInstance: {fileID: 1079750291}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1120146399
 GameObject:
   m_ObjectHideFlags: 0
@@ -5637,7 +5664,13 @@ PolygonCollider2D:
       - {x: 1.9097327, y: 6.0072517}
       - {x: 4.4822745, y: 3.1793156}
       - {x: 3.4287894, y: 0.60729456}
-      - {x: -0.0003042221, y: 1.6953199}
+      - {x: 0.088787735, y: -7.390128}
+      - {x: 0.13979873, y: -9.15839}
+      - {x: -0.19940995, y: -9.083738}
+      - {x: -0.3166961, y: -7.65871}
+      - {x: -0.38536558, y: -7.089932}
+      - {x: -2.1316235, y: -2.1843834}
+      - {x: -3.2030323, y: 0.45324647}
   m_UseDelaunayMesh: 0
 --- !u!1 &1601542281
 GameObject:
@@ -6226,8 +6259,13 @@ PolygonCollider2D:
       - {x: 8.567787, y: 19.221703}
       - {x: 9.927032, y: 18.657473}
       - {x: 12.92327, y: 15.821791}
-      - {x: 9.2589, y: 7.138107}
-      - {x: 9.202776, y: -13.773205}
+      - {x: 23.861893, y: 7.138107}
+      - {x: 31.398994, y: 11.923239}
+      - {x: 35.376396, y: 10.19536}
+      - {x: 36.30831, y: 2.2024746}
+      - {x: 32.62483, y: -9.323632}
+      - {x: 26.565487, y: -8.731542}
+      - {x: 16.420345, y: -14.780321}
       - {x: 17.690598, y: -18.517525}
       - {x: -0.0837664, y: -17.686237}
       - {x: 2.6918697, y: -14.207429}

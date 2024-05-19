@@ -586,7 +586,6 @@ GameObject:
   - component: {fileID: 77584851}
   - component: {fileID: 77584850}
   - component: {fileID: 77584849}
-  - component: {fileID: 77584848}
   m_Layer: 0
   m_Name: Interactive_Item
   m_TagString: Untagged
@@ -594,19 +593,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &77584848
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 77584847}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ec815c6e58ae480428033aa33ab8c1ec, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  obj_name: {fileID: 0}
 --- !u!114 &77584849
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3288,6 +3274,30 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 1493886169892516682, guid: c1823c7175610e64aac2db98aee6fd8d, type: 3}
+      propertyPath: gos.Array.size
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 1493886169892516682, guid: c1823c7175610e64aac2db98aee6fd8d, type: 3}
+      propertyPath: gos.Array.data[0]
+      value: 
+      objectReference: {fileID: 1079750293}
+    - target: {fileID: 1493886169892516682, guid: c1823c7175610e64aac2db98aee6fd8d, type: 3}
+      propertyPath: gos.Array.data[1]
+      value: 
+      objectReference: {fileID: 1984481446}
+    - target: {fileID: 1493886169892516682, guid: c1823c7175610e64aac2db98aee6fd8d, type: 3}
+      propertyPath: gos.Array.data[2]
+      value: 
+      objectReference: {fileID: 2026944852}
+    - target: {fileID: 1493886169892516682, guid: c1823c7175610e64aac2db98aee6fd8d, type: 3}
+      propertyPath: gos.Array.data[3]
+      value: 
+      objectReference: {fileID: 980197173}
+    - target: {fileID: 1493886169892516682, guid: c1823c7175610e64aac2db98aee6fd8d, type: 3}
+      propertyPath: gos.Array.data[4]
+      value: 
+      objectReference: {fileID: 77584847}
     - target: {fileID: 2251603117168059427, guid: c1823c7175610e64aac2db98aee6fd8d, type: 3}
       propertyPath: coins
       value: 
@@ -3509,6 +3519,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 67db9e8f0e2ae9c40bc1e2b64352a6b4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!1 &1079750293 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 5979922148680651266, guid: 434c2726e0dbb5d4482944f86b3c9a22, type: 3}
+  m_PrefabInstance: {fileID: 1079750291}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1120146399
 GameObject:
   m_ObjectHideFlags: 0
@@ -5769,16 +5784,28 @@ PolygonCollider2D:
   m_AutoTiling: 0
   m_Points:
     m_Paths:
-    - - {x: -0.5850937, y: -3.18748}
+    - - {x: 4.3163943, y: -1.8194963}
+      - {x: 3.348074, y: -1.725689}
+      - {x: 2.9721584, y: -1.8332562}
+      - {x: 1.892237, y: -2.841555}
+      - {x: 0.8033609, y: -3.1957142}
+      - {x: -0.17946771, y: -3.0937562}
+      - {x: -1.6445704, y: -2.5833426}
+      - {x: -2.7344732, y: -1.8719387}
       - {x: -4.3916993, y: -1.7370254}
       - {x: -4.489334, y: -1.1861291}
-      - {x: -2.2306821, y: -0.07262099}
-      - {x: -1.1564384, y: 2.1785967}
-      - {x: -0.13180923, y: 3.0093756}
-      - {x: 1.7140716, y: 3.1568103}
-      - {x: 3.771862, y: 2.3056781}
-      - {x: 4.5599337, y: 0.7763658}
-      - {x: 4.4099693, y: -1.6636006}
+      - {x: -4.501256, y: -0.007999279}
+      - {x: -4.3595705, y: 1.1956743}
+      - {x: -3.9214697, y: 1.9834251}
+      - {x: -3.1299953, y: 2.6411233}
+      - {x: -1.9525003, y: 3.1345918}
+      - {x: -0.4964199, y: 3.1031425}
+      - {x: 0.2303255, y: 2.8938873}
+      - {x: 1.0371724, y: 2.3103557}
+      - {x: 1.8018092, y: 1.1121856}
+      - {x: 2.1715457, y: -0.057337046}
+      - {x: 4.4468346, y: -1.195548}
+      - {x: 4.560559, y: -1.5121857}
   m_UseDelaunayMesh: 0
 --- !u!114 &1601542285
 MonoBehaviour:
@@ -6220,20 +6247,38 @@ PolygonCollider2D:
   m_AutoTiling: 0
   m_Points:
     m_Paths:
-    - - {x: -35.518738, y: 10.060099}
-      - {x: -27.063717, y: 12.041021}
-      - {x: -6.2709923, y: 4.7249994}
-      - {x: 8.567787, y: 19.221703}
-      - {x: 9.927032, y: 18.657473}
-      - {x: 12.92327, y: 15.821791}
-      - {x: 9.2589, y: 7.138107}
-      - {x: 9.202776, y: -13.773205}
-      - {x: 17.690598, y: -18.517525}
-      - {x: -0.0837664, y: -17.686237}
-      - {x: 2.6918697, y: -14.207429}
-      - {x: -5.508177, y: -10.603567}
-      - {x: -25.783743, y: 6.2008667}
-      - {x: -34.538807, y: 7.917407}
+    - - {x: -34.391853, y: 9.934888}
+      - {x: -32.072052, y: 11.289765}
+      - {x: -29.229969, y: 10.778709}
+      - {x: -24.640516, y: 7.4202685}
+      - {x: -14.615419, y: 12.424171}
+      - {x: -11.770071, y: 17.723515}
+      - {x: -9.619762, y: 19.258831}
+      - {x: -6.683468, y: 17.296413}
+      - {x: -4.9656935, y: 14.319641}
+      - {x: -4.348594, y: 11.780262}
+      - {x: 1.4560995, y: 9.232763}
+      - {x: 4.3878183, y: 6.076317}
+      - {x: 6.7022753, y: 5.4654183}
+      - {x: 25.557283, y: 11.419283}
+      - {x: 34.029366, y: 10.644623}
+      - {x: 35.405792, y: 9.774345}
+      - {x: 34.03824, y: 8.142738}
+      - {x: 24.726048, y: 5.9301367}
+      - {x: 15.488234, y: -0.0051594973}
+      - {x: 5.9971457, y: -10.492107}
+      - {x: -2.3929, y: -14.800214}
+      - {x: -0.5345534, y: -18.162651}
+      - {x: -4.468262, y: -19.089453}
+      - {x: -13.915314, y: -19.145828}
+      - {x: -17.642498, y: -17.567432}
+      - {x: -15.180988, y: -14.747846}
+      - {x: -22.244919, y: -12.086072}
+      - {x: -26.104895, y: -7.113743}
+      - {x: -29.988007, y: -8.794521}
+      - {x: -32.811604, y: -8.475539}
+      - {x: -35.184677, y: -1.4367919}
+      - {x: -35.820335, y: 6.477927}
   m_UseDelaunayMesh: 0
 --- !u!114 &1619592140
 MonoBehaviour:

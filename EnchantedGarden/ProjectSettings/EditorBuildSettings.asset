@@ -116,4 +116,34 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Lvl_3_3LoseScene.unity
     guid: cf3d5ca1f391e36428a474ce6143c5a8
+  - enabled: 1
+    path: Assets/Scenes/Lvl_3_1 1.unity
+    guid: 957f2473b7455794ebe831743aa12f1c
+  - enabled: 1
+    path: Assets/Scenes/Lvl_3_1 2.unity
+    guid: 50dc4d02a11ed844d88c7072a157fec4
+  - enabled: 1
+    path: Assets/Scenes/Lvl_3_1 3.unity
+    guid: 6ae12dcde9371664391900ee5f381270
+  - enabled: 1
+    path: Assets/Scenes/Lvl_3_1 4.unity
+    guid: d1f827d6ecbdb0946ada4b4f0ff12864
+  - enabled: 1
+    path: Assets/Scenes/Lvl_3_2 1.unity
+    guid: b76ceadf7da4c56439f18c0d533baad7
+  - enabled: 1
+    path: Assets/Scenes/Lvl_3_2 2.unity
+    guid: b9b3efa86d79b334c8ee76f09e463393
+  - enabled: 1
+    path: Assets/Scenes/Lvl_3_2 3.unity
+    guid: f6c55a8b2ebf31d4faae253233813fba
+  - enabled: 1
+    path: Assets/Scenes/Lvl_3_3 ver 2.unity
+    guid: e739a3c293803fc4caf713ed1a593edf
+  - enabled: 1
+    path: Assets/Scenes/Lvl_3_3 ver 3.unity
+    guid: 048ca17c23512a14592c5413e0cfbd2e
+  - enabled: 1
+    path: Assets/Scenes/Lvl_3_3 ver 4.unity
+    guid: b2fdd24a19f1ee041beaac207f928fff
   m_configObjects: {}

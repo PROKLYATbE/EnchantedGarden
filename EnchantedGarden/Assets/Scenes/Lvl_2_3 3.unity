@@ -2707,6 +2707,30 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 1493886169892516682, guid: c1823c7175610e64aac2db98aee6fd8d, type: 3}
+      propertyPath: gos.Array.size
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 1493886169892516682, guid: c1823c7175610e64aac2db98aee6fd8d, type: 3}
+      propertyPath: gos.Array.data[0]
+      value: 
+      objectReference: {fileID: 2005812593}
+    - target: {fileID: 1493886169892516682, guid: c1823c7175610e64aac2db98aee6fd8d, type: 3}
+      propertyPath: gos.Array.data[1]
+      value: 
+      objectReference: {fileID: 1935289079}
+    - target: {fileID: 1493886169892516682, guid: c1823c7175610e64aac2db98aee6fd8d, type: 3}
+      propertyPath: gos.Array.data[2]
+      value: 
+      objectReference: {fileID: 445626336}
+    - target: {fileID: 1493886169892516682, guid: c1823c7175610e64aac2db98aee6fd8d, type: 3}
+      propertyPath: gos.Array.data[3]
+      value: 
+      objectReference: {fileID: 452186441}
+    - target: {fileID: 1493886169892516682, guid: c1823c7175610e64aac2db98aee6fd8d, type: 3}
+      propertyPath: gos.Array.data[4]
+      value: 
+      objectReference: {fileID: 1536636411}
     - target: {fileID: 2251603117168059427, guid: c1823c7175610e64aac2db98aee6fd8d, type: 3}
       propertyPath: coins
       value: 
@@ -5655,8 +5679,8 @@ PolygonCollider2D:
   m_Points:
     m_Paths:
     - - {x: 0.29379463, y: 1.4700799}
-      - {x: 0.25639394, y: 0.5555964}
-      - {x: 0.0023602694, y: 0.4969135}
+      - {x: 0.3263656, y: -2.551275}
+      - {x: -0.04246061, y: -2.4756618}
       - {x: 0.03915924, y: 1.4885608}
       - {x: -0.28394252, y: 1.3033524}
       - {x: -0.19085082, y: 1.8392203}
@@ -7797,6 +7821,11 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 434c2726e0dbb5d4482944f86b3c9a22, type: 3}
+--- !u!1 &2005812593 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 5979922148680651266, guid: 434c2726e0dbb5d4482944f86b3c9a22, type: 3}
+  m_PrefabInstance: {fileID: 2005812592}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &2038315326
 GameObject:
   m_ObjectHideFlags: 0
@@ -8373,7 +8402,7 @@ SceneRoots:
   - {fileID: 577952871}
   - {fileID: 2005812592}
   - {fileID: 1935289083}
-  - {fileID: 701111299}
   - {fileID: 445626337}
   - {fileID: 452186442}
   - {fileID: 1536636412}
+  - {fileID: 701111299}

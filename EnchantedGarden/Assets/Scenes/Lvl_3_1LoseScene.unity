@@ -202,6 +202,7 @@ GameObject:
   - component: {fileID: 1704004509}
   - component: {fileID: 1704004508}
   - component: {fileID: 1704004507}
+  - component: {fileID: 1704004510}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -283,6 +284,20 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1704004510
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1704004506}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fbef961f6056bfe4e92274599617ce26, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  gos:
+  - {fileID: 1885493259}
 --- !u!1001 &1885493258
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -384,24 +399,28 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 1704004508}
     - target: {fileID: 8645864704056475748, guid: ec70b4b992e78d0418f6c10cdb1bdad3, type: 3}
+      propertyPath: lvlNames.Array.size
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 8645864704056475748, guid: ec70b4b992e78d0418f6c10cdb1bdad3, type: 3}
       propertyPath: lvlNames.Array.data[0]
       value: Lvl_3_1
       objectReference: {fileID: 0}
     - target: {fileID: 8645864704056475748, guid: ec70b4b992e78d0418f6c10cdb1bdad3, type: 3}
       propertyPath: lvlNames.Array.data[1]
-      value: Lvl_3_1
+      value: Lvl_3_1 1
       objectReference: {fileID: 0}
     - target: {fileID: 8645864704056475748, guid: ec70b4b992e78d0418f6c10cdb1bdad3, type: 3}
       propertyPath: lvlNames.Array.data[2]
-      value: Lvl_3_1
+      value: Lvl_3_1 2
       objectReference: {fileID: 0}
     - target: {fileID: 8645864704056475748, guid: ec70b4b992e78d0418f6c10cdb1bdad3, type: 3}
       propertyPath: lvlNames.Array.data[3]
-      value: Lvl_3_1
+      value: Lvl_3_1 3
       objectReference: {fileID: 0}
     - target: {fileID: 8645864704056475748, guid: ec70b4b992e78d0418f6c10cdb1bdad3, type: 3}
       propertyPath: lvlNames.Array.data[4]
-      value: Lvl_3_1
+      value: Lvl_3_1 4
       objectReference: {fileID: 0}
     - target: {fileID: 8645864704056475748, guid: ec70b4b992e78d0418f6c10cdb1bdad3, type: 3}
       propertyPath: lvlNames.Array.data[5]
@@ -412,6 +431,11 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ec70b4b992e78d0418f6c10cdb1bdad3, type: 3}
+--- !u!1 &1885493259 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 159344491180458, guid: ec70b4b992e78d0418f6c10cdb1bdad3, type: 3}
+  m_PrefabInstance: {fileID: 1885493258}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0

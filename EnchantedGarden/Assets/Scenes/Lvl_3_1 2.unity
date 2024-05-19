@@ -586,7 +586,6 @@ GameObject:
   - component: {fileID: 77584851}
   - component: {fileID: 77584850}
   - component: {fileID: 77584849}
-  - component: {fileID: 77584848}
   m_Layer: 0
   m_Name: Interactive_Item
   m_TagString: Untagged
@@ -594,19 +593,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &77584848
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 77584847}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ec815c6e58ae480428033aa33ab8c1ec, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  obj_name: {fileID: 0}
 --- !u!114 &77584849
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3288,6 +3274,30 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 1493886169892516682, guid: c1823c7175610e64aac2db98aee6fd8d, type: 3}
+      propertyPath: gos.Array.size
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 1493886169892516682, guid: c1823c7175610e64aac2db98aee6fd8d, type: 3}
+      propertyPath: gos.Array.data[0]
+      value: 
+      objectReference: {fileID: 1079750293}
+    - target: {fileID: 1493886169892516682, guid: c1823c7175610e64aac2db98aee6fd8d, type: 3}
+      propertyPath: gos.Array.data[1]
+      value: 
+      objectReference: {fileID: 1984481446}
+    - target: {fileID: 1493886169892516682, guid: c1823c7175610e64aac2db98aee6fd8d, type: 3}
+      propertyPath: gos.Array.data[2]
+      value: 
+      objectReference: {fileID: 2026944852}
+    - target: {fileID: 1493886169892516682, guid: c1823c7175610e64aac2db98aee6fd8d, type: 3}
+      propertyPath: gos.Array.data[3]
+      value: 
+      objectReference: {fileID: 980197173}
+    - target: {fileID: 1493886169892516682, guid: c1823c7175610e64aac2db98aee6fd8d, type: 3}
+      propertyPath: gos.Array.data[4]
+      value: 
+      objectReference: {fileID: 77584847}
     - target: {fileID: 2251603117168059427, guid: c1823c7175610e64aac2db98aee6fd8d, type: 3}
       propertyPath: coins
       value: 
@@ -3509,6 +3519,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 67db9e8f0e2ae9c40bc1e2b64352a6b4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!1 &1079750293 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 5979922148680651266, guid: 434c2726e0dbb5d4482944f86b3c9a22, type: 3}
+  m_PrefabInstance: {fileID: 1079750291}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1120146399
 GameObject:
   m_ObjectHideFlags: 0
@@ -5629,7 +5644,10 @@ PolygonCollider2D:
   m_AutoTiling: 0
   m_Points:
     m_Paths:
-    - - {x: -4.2250843, y: 3.2179565}
+    - - {x: 0.14757091, y: -9.129777}
+      - {x: -0.2984842, y: -9.074646}
+      - {x: -0.3412497, y: -7.144594}
+      - {x: -4.2250843, y: 3.2179565}
       - {x: -1.0165815, y: 5.8041143}
       - {x: -0.22826923, y: 9.009064}
       - {x: 1.0322433, y: 9.142765}
@@ -5637,7 +5655,7 @@ PolygonCollider2D:
       - {x: 1.9097327, y: 6.0072517}
       - {x: 4.4822745, y: 3.1793156}
       - {x: 3.4287894, y: 0.60729456}
-      - {x: -0.0003042221, y: 1.6953199}
+      - {x: 0.27047598, y: -7.2389536}
   m_UseDelaunayMesh: 0
 --- !u!1 &1601542281
 GameObject:
@@ -6226,8 +6244,15 @@ PolygonCollider2D:
       - {x: 8.567787, y: 19.221703}
       - {x: 9.927032, y: 18.657473}
       - {x: 12.92327, y: 15.821791}
-      - {x: 9.2589, y: 7.138107}
-      - {x: 9.202776, y: -13.773205}
+      - {x: 23.434322, y: 6.958669}
+      - {x: 31.230185, y: 11.911428}
+      - {x: 33.75978, y: 10.7388115}
+      - {x: 35.824936, y: 8.148333}
+      - {x: 35.339607, y: -1.2755017}
+      - {x: 32.741737, y: -9.491802}
+      - {x: 26.248219, y: -8.153923}
+      - {x: 21.870129, y: -12.701709}
+      - {x: 16.380241, y: -14.311518}
       - {x: 17.690598, y: -18.517525}
       - {x: -0.0837664, y: -17.686237}
       - {x: 2.6918697, y: -14.207429}

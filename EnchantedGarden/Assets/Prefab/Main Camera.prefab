@@ -14,6 +14,7 @@ GameObject:
   - component: {fileID: 8110167930003151158}
   - component: {fileID: 768989157610226741}
   - component: {fileID: 2251603117168059427}
+  - component: {fileID: 1493886169892516682}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -138,3 +139,16 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   coins: {fileID: 0}
   lvlName: 
+--- !u!114 &1493886169892516682
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6152871764117494967}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fbef961f6056bfe4e92274599617ce26, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  gos: []

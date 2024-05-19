@@ -1358,7 +1358,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 23.503004, y: -310}
+  m_AnchoredPosition: {x: 23.503004, y: -254}
   m_SizeDelta: {x: 414.25, y: 60}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &182047475
@@ -2584,14 +2584,14 @@ PolygonCollider2D:
   m_AutoTiling: 0
   m_Points:
     m_Paths:
-    - - {x: -10.121287, y: -8.960543}
-      - {x: -7.9478393, y: -5.3955717}
-      - {x: -0.6422386, y: -4.208798}
-      - {x: 1.6062579, y: -3.9208407}
-      - {x: 4.2011786, y: -3.8420682}
-      - {x: 4.2211547, y: 2.1618066}
-      - {x: 4.325122, y: 5.172396}
-      - {x: 5.523043, y: 5.811061}
+    - - {x: -10.016069, y: -8.855324}
+      - {x: -6.6325984, y: -8.8151865}
+      - {x: -0.116137564, y: -8.7332115}
+      - {x: 4.289343, y: -8.813522}
+      - {x: 7.4629674, y: -6.367323}
+      - {x: 7.5355587, y: 1.9513679}
+      - {x: 8.113001, y: 3.0680168}
+      - {x: 8.521782, y: 4.4432154}
       - {x: 8.993609, y: 5.790709}
       - {x: 9.116358, y: 7.742663}
       - {x: 7.9969754, y: 9.075069}
@@ -3263,7 +3263,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 23.209991, y: -499}
+  m_AnchoredPosition: {x: 23.209991, y: -378}
   m_SizeDelta: {x: 412.42, y: 60}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &784658063
@@ -3732,6 +3732,30 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 1493886169892516682, guid: c1823c7175610e64aac2db98aee6fd8d, type: 3}
+      propertyPath: gos.Array.size
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 1493886169892516682, guid: c1823c7175610e64aac2db98aee6fd8d, type: 3}
+      propertyPath: gos.Array.data[0]
+      value: 
+      objectReference: {fileID: 1079750293}
+    - target: {fileID: 1493886169892516682, guid: c1823c7175610e64aac2db98aee6fd8d, type: 3}
+      propertyPath: gos.Array.data[1]
+      value: 
+      objectReference: {fileID: 1984481446}
+    - target: {fileID: 1493886169892516682, guid: c1823c7175610e64aac2db98aee6fd8d, type: 3}
+      propertyPath: gos.Array.data[2]
+      value: 
+      objectReference: {fileID: 2026944852}
+    - target: {fileID: 1493886169892516682, guid: c1823c7175610e64aac2db98aee6fd8d, type: 3}
+      propertyPath: gos.Array.data[3]
+      value: 
+      objectReference: {fileID: 980197173}
+    - target: {fileID: 1493886169892516682, guid: c1823c7175610e64aac2db98aee6fd8d, type: 3}
+      propertyPath: gos.Array.data[4]
+      value: 
+      objectReference: {fileID: 77584847}
     - target: {fileID: 2251603117168059427, guid: c1823c7175610e64aac2db98aee6fd8d, type: 3}
       propertyPath: coins
       value: 
@@ -3953,6 +3977,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 67db9e8f0e2ae9c40bc1e2b64352a6b4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!1 &1079750293 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 5979922148680651266, guid: 434c2726e0dbb5d4482944f86b3c9a22, type: 3}
+  m_PrefabInstance: {fileID: 1079750291}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1120146399
 GameObject:
   m_ObjectHideFlags: 0
@@ -5475,8 +5504,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 36.5, y: -219.5}
-  m_SizeDelta: {x: 439.49, y: 120.99}
+  m_AnchoredPosition: {x: 23, y: -191.23}
+  m_SizeDelta: {x: 414.25, y: 64.45}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1432004824
 MonoBehaviour:
@@ -5511,8 +5540,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "\u0420\u0443\u043D\u0434\u0443\u043A\n      (\u0441\u0443\u043D\u0434\u0443\u043A
-    \u0434\u043B\u044F \u0440\u0443\u043D)"
+  m_Text: "\u0421\u0443\u043D\u0434\u0443\u043A"
 --- !u!222 &1432004825
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -7085,7 +7113,8 @@ PolygonCollider2D:
   m_AutoTiling: 0
   m_Points:
     m_Paths:
-    - - {x: -10.679887, y: -13.237054}
+    - - {x: -19.208996, y: -20.935555}
+      - {x: -11.093475, y: -14.021098}
       - {x: -9.352505, y: -14.593779}
       - {x: -5.80987, y: -15.455568}
       - {x: -0.87267685, y: -11.821752}
@@ -7106,7 +7135,8 @@ PolygonCollider2D:
       - {x: -2.085163, y: 2.8844442}
       - {x: -9.894766, y: -3.863884}
       - {x: -11.871773, y: -8.402845}
-      - {x: -12.230593, y: -10.806611}
+      - {x: -12.484627, y: -10.853615}
+      - {x: -21.087994, y: -18.119171}
   m_UseDelaunayMesh: 0
 --- !u!1 &1715905756
 GameObject:
@@ -7348,7 +7378,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2863884846923833578, guid: b654a38bb88a08346ae5ce309bc51453, type: 3}
       propertyPath: timeRemaining
-      value: 60
+      value: 80
       objectReference: {fileID: 0}
     - target: {fileID: 2863884846923833578, guid: b654a38bb88a08346ae5ce309bc51453, type: 3}
       propertyPath: loseSceneNumber
@@ -9269,7 +9299,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 23.051907, y: -375}
+  m_AnchoredPosition: {x: 23.051907, y: -317}
   m_SizeDelta: {x: 412.73, y: 60}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &2064528187
