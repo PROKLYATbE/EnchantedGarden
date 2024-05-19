@@ -605,6 +605,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 730258322851075544, guid: 434c2726e0dbb5d4482944f86b3c9a22, type: 3}
+      propertyPath: hintButton
+      value: 
+      objectReference: {fileID: 296378572}
     - target: {fileID: 1655078632555538826, guid: 434c2726e0dbb5d4482944f86b3c9a22, type: 3}
       propertyPath: m_Pivot.x
       value: 0
@@ -745,6 +749,10 @@ PrefabInstance:
       propertyPath: m_OnValueChanged.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
       value: SetVolume
       objectReference: {fileID: 0}
+    - target: {fileID: 6588593423231203491, guid: 434c2726e0dbb5d4482944f86b3c9a22, type: 3}
+      propertyPath: hintButton
+      value: 
+      objectReference: {fileID: 296378572}
     - target: {fileID: 7285241943133370257, guid: 434c2726e0dbb5d4482944f86b3c9a22, type: 3}
       propertyPath: m_Camera
       value: 
@@ -758,6 +766,7 @@ PrefabInstance:
     - {fileID: 206581002849225463, guid: 434c2726e0dbb5d4482944f86b3c9a22, type: 3}
     - {fileID: 8789056350127679481, guid: 434c2726e0dbb5d4482944f86b3c9a22, type: 3}
     - {fileID: 6516674363127527393, guid: 434c2726e0dbb5d4482944f86b3c9a22, type: 3}
+    - {fileID: 7503445436845488726, guid: 434c2726e0dbb5d4482944f86b3c9a22, type: 3}
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 434c2726e0dbb5d4482944f86b3c9a22, type: 3}
@@ -772,6 +781,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 67db9e8f0e2ae9c40bc1e2b64352a6b4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!1 &296378572 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 5771880525870649054, guid: 434c2726e0dbb5d4482944f86b3c9a22, type: 3}
+  m_PrefabInstance: {fileID: 296378570}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1749372983
 GameObject:
   m_ObjectHideFlags: 0

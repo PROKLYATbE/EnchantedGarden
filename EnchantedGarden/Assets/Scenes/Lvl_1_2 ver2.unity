@@ -1067,7 +1067,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &178450123
 Transform:
   m_ObjectHideFlags: 0
@@ -2011,7 +2011,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &377550938
 Transform:
   m_ObjectHideFlags: 0
@@ -2442,7 +2442,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &564673297
 Transform:
   m_ObjectHideFlags: 0
@@ -2526,7 +2526,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &573307500
 Transform:
   m_ObjectHideFlags: 0
@@ -2536,7 +2536,7 @@ Transform:
   m_GameObject: {fileID: 573307499}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0.34238985, w: 0.93955797}
-  m_LocalPosition: {x: -4.86, y: -2.87, z: 0}
+  m_LocalPosition: {x: -3.01, y: 1.94, z: 0}
   m_LocalScale: {x: 0.08773149, y: 0.08773149, z: 0.08773149}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -3189,7 +3189,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &771660040
 Transform:
   m_ObjectHideFlags: 0
@@ -3485,7 +3485,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &1017154873
 Transform:
   m_ObjectHideFlags: 0
@@ -3495,7 +3495,7 @@ Transform:
   m_GameObject: {fileID: 1017154872}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: 0.21651188, w: 0.97628003}
-  m_LocalPosition: {x: -1.76, y: 3.78, z: 0}
+  m_LocalPosition: {x: 8.01, y: 3.83, z: 0}
   m_LocalScale: {x: 0.41192505, y: 0.41192505, z: 0.41192505}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -3541,7 +3541,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: -1
+  m_SortingOrder: -5
   m_Sprite: {fileID: 21300000, guid: f0570874ac9002246b009cc8436a4f2d, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -3673,6 +3673,46 @@ PrefabInstance:
       propertyPath: m_Camera
       value: 
       objectReference: {fileID: 519420031}
+    - target: {fileID: 7973511344034594075, guid: 434c2726e0dbb5d4482944f86b3c9a22, type: 3}
+      propertyPath: objects.Array.size
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 7973511344034594075, guid: 434c2726e0dbb5d4482944f86b3c9a22, type: 3}
+      propertyPath: objects.Array.data[0]
+      value: 
+      objectReference: {fileID: 1162943863}
+    - target: {fileID: 7973511344034594075, guid: 434c2726e0dbb5d4482944f86b3c9a22, type: 3}
+      propertyPath: objects.Array.data[1]
+      value: 
+      objectReference: {fileID: 1708068106}
+    - target: {fileID: 7973511344034594075, guid: 434c2726e0dbb5d4482944f86b3c9a22, type: 3}
+      propertyPath: objects.Array.data[2]
+      value: 
+      objectReference: {fileID: 1262796910}
+    - target: {fileID: 7973511344034594075, guid: 434c2726e0dbb5d4482944f86b3c9a22, type: 3}
+      propertyPath: objects.Array.data[3]
+      value: 
+      objectReference: {fileID: 1231048571}
+    - target: {fileID: 7973511344034594075, guid: 434c2726e0dbb5d4482944f86b3c9a22, type: 3}
+      propertyPath: objects.Array.data[4]
+      value: 
+      objectReference: {fileID: 1089730959}
+    - target: {fileID: 7973511344034594075, guid: 434c2726e0dbb5d4482944f86b3c9a22, type: 3}
+      propertyPath: objects.Array.data[5]
+      value: 
+      objectReference: {fileID: 1311717546}
+    - target: {fileID: 7973511344034594075, guid: 434c2726e0dbb5d4482944f86b3c9a22, type: 3}
+      propertyPath: objects.Array.data[6]
+      value: 
+      objectReference: {fileID: 1612346459}
+    - target: {fileID: 7973511344034594075, guid: 434c2726e0dbb5d4482944f86b3c9a22, type: 3}
+      propertyPath: objects.Array.data[7]
+      value: 
+      objectReference: {fileID: 2022438456}
+    - target: {fileID: 7973511344034594075, guid: 434c2726e0dbb5d4482944f86b3c9a22, type: 3}
+      propertyPath: objects.Array.data[8]
+      value: 
+      objectReference: {fileID: 1507004453}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -3783,7 +3823,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &1068205990
 Transform:
   m_ObjectHideFlags: 0
@@ -5862,7 +5902,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &1483467822
 Transform:
   m_ObjectHideFlags: 0
@@ -5872,7 +5912,7 @@ Transform:
   m_GameObject: {fileID: 1483467821}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: -0.7071068, w: 0.7071068}
-  m_LocalPosition: {x: -4.86, y: -1.5, z: 0}
+  m_LocalPosition: {x: 2.64, y: -0.96, z: 0}
   m_LocalScale: {x: 0.08773149, y: 0.08773149, z: 0.08773149}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -5918,7 +5958,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: -1
+  m_SortingOrder: -4
   m_Sprite: {fileID: 21300000, guid: cf5afbd2fef1b91408fb53b58be55257, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -5946,7 +5986,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &1498847413
 Transform:
   m_ObjectHideFlags: 0
@@ -5956,7 +5996,7 @@ Transform:
   m_GameObject: {fileID: 1498847412}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -2.02, y: -4.6, z: 0}
+  m_LocalPosition: {x: -0.68, y: -4.2, z: 0}
   m_LocalScale: {x: 0.12423573, y: 0.12423573, z: 0.12423573}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -7500,7 +7540,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &1793432066
 Transform:
   m_ObjectHideFlags: 0

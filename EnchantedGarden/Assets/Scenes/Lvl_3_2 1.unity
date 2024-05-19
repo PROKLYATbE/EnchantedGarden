@@ -3961,6 +3961,46 @@ PrefabInstance:
       propertyPath: m_SortingOrder
       value: 10
       objectReference: {fileID: 0}
+    - target: {fileID: 7973511344034594075, guid: 434c2726e0dbb5d4482944f86b3c9a22, type: 3}
+      propertyPath: objects.Array.size
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 7973511344034594075, guid: 434c2726e0dbb5d4482944f86b3c9a22, type: 3}
+      propertyPath: objects.Array.data[0]
+      value: 
+      objectReference: {fileID: 222821036}
+    - target: {fileID: 7973511344034594075, guid: 434c2726e0dbb5d4482944f86b3c9a22, type: 3}
+      propertyPath: objects.Array.data[1]
+      value: 
+      objectReference: {fileID: 107315743}
+    - target: {fileID: 7973511344034594075, guid: 434c2726e0dbb5d4482944f86b3c9a22, type: 3}
+      propertyPath: objects.Array.data[2]
+      value: 
+      objectReference: {fileID: 351017159}
+    - target: {fileID: 7973511344034594075, guid: 434c2726e0dbb5d4482944f86b3c9a22, type: 3}
+      propertyPath: objects.Array.data[3]
+      value: 
+      objectReference: {fileID: 2049033752}
+    - target: {fileID: 7973511344034594075, guid: 434c2726e0dbb5d4482944f86b3c9a22, type: 3}
+      propertyPath: objects.Array.data[4]
+      value: 
+      objectReference: {fileID: 85257793}
+    - target: {fileID: 7973511344034594075, guid: 434c2726e0dbb5d4482944f86b3c9a22, type: 3}
+      propertyPath: objects.Array.data[5]
+      value: 
+      objectReference: {fileID: 1713588254}
+    - target: {fileID: 7973511344034594075, guid: 434c2726e0dbb5d4482944f86b3c9a22, type: 3}
+      propertyPath: objects.Array.data[6]
+      value: 
+      objectReference: {fileID: 561980840}
+    - target: {fileID: 7973511344034594075, guid: 434c2726e0dbb5d4482944f86b3c9a22, type: 3}
+      propertyPath: objects.Array.data[7]
+      value: 
+      objectReference: {fileID: 1219031887}
+    - target: {fileID: 7973511344034594075, guid: 434c2726e0dbb5d4482944f86b3c9a22, type: 3}
+      propertyPath: objects.Array.data[8]
+      value: 
+      objectReference: {fileID: 495175083}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []

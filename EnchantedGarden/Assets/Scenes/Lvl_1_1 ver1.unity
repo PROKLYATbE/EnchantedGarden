@@ -5145,6 +5145,10 @@ PrefabInstance:
       propertyPath: m_AnchorMax.y
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3429207581164783753, guid: 434c2726e0dbb5d4482944f86b3c9a22, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 5979922148680651266, guid: 434c2726e0dbb5d4482944f86b3c9a22, type: 3}
       propertyPath: m_Name
       value: EscMenuCanvas
@@ -5165,6 +5169,42 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 7973511344034594075, guid: 434c2726e0dbb5d4482944f86b3c9a22, type: 3}
+      propertyPath: objects.Array.size
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 7973511344034594075, guid: 434c2726e0dbb5d4482944f86b3c9a22, type: 3}
+      propertyPath: objects.Array.data[0]
+      value: 
+      objectReference: {fileID: 1549145771}
+    - target: {fileID: 7973511344034594075, guid: 434c2726e0dbb5d4482944f86b3c9a22, type: 3}
+      propertyPath: objects.Array.data[1]
+      value: 
+      objectReference: {fileID: 1967503894}
+    - target: {fileID: 7973511344034594075, guid: 434c2726e0dbb5d4482944f86b3c9a22, type: 3}
+      propertyPath: objects.Array.data[2]
+      value: 
+      objectReference: {fileID: 273571080}
+    - target: {fileID: 7973511344034594075, guid: 434c2726e0dbb5d4482944f86b3c9a22, type: 3}
+      propertyPath: objects.Array.data[3]
+      value: 
+      objectReference: {fileID: 133697132}
+    - target: {fileID: 7973511344034594075, guid: 434c2726e0dbb5d4482944f86b3c9a22, type: 3}
+      propertyPath: objects.Array.data[4]
+      value: 
+      objectReference: {fileID: 109003460}
+    - target: {fileID: 7973511344034594075, guid: 434c2726e0dbb5d4482944f86b3c9a22, type: 3}
+      propertyPath: objects.Array.data[5]
+      value: 
+      objectReference: {fileID: 2094314849}
+    - target: {fileID: 7973511344034594075, guid: 434c2726e0dbb5d4482944f86b3c9a22, type: 3}
+      propertyPath: objects.Array.data[6]
+      value: 
+      objectReference: {fileID: 1496585887}
+    - target: {fileID: 7973511344034594075, guid: 434c2726e0dbb5d4482944f86b3c9a22, type: 3}
+      propertyPath: objects.Array.data[7]
+      value: 
+      objectReference: {fileID: 1022740631}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []

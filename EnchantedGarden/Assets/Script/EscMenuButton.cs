@@ -6,6 +6,7 @@ public class EscMenuButton : MonoBehaviour
 {
     public GameObject settingsMenu;
     public GameObject escButton;
+    public GameObject hintButton;
     /*
     public void Pause()
     {
@@ -19,5 +20,6 @@ public class EscMenuButton : MonoBehaviour
     {
         settingsMenu.SetActive(true);
         escButton.SetActive(false);
+        hintButton.SetActive(false);
     }
 }
