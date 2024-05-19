@@ -111,7 +111,7 @@ EditorBuildSettings:
     path: Assets/Scenes/Lvl_3_2LoseScene.unity
     guid: 203d95805f5bd0f4193e9275442f87e6
   - enabled: 1
-    path: Assets/Scenes/Lvl_3_3.unity
+    path: Assets/Scenes/Lvl_3_3 ver 1.unity
     guid: 7640138e3a96a17429e2d67f1d928928
   - enabled: 1
     path: Assets/Scenes/Lvl_3_3LoseScene.unity
