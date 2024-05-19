@@ -2405,7 +2405,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ec815c6e58ae480428033aa33ab8c1ec, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  obj_name: {fileID: 0}
+  obj_name: {fileID: 740268752}
 --- !u!58 &495175087
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -9302,7 +9302,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ec815c6e58ae480428033aa33ab8c1ec, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  obj_name: {fileID: 740268752}
+  obj_name: {fileID: 1951740689}
 --- !u!1 &2064528185
 GameObject:
   m_ObjectHideFlags: 0

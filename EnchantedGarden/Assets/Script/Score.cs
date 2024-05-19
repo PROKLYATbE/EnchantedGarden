@@ -15,7 +15,7 @@ public class Score : MonoBehaviour
     {
         float f1 = PlayerPrefs.GetFloat("TimeRemaining" + lvlName);
         float f2 = PlayerPrefs.GetFloat("TimeTo" + lvlName);
-        if (PlayerPrefs.GetInt(lvlName) == 1)
+        if (PlayerPrefs.GetFloat("TimeRemaining" + lvlName) > 0)
         {
             star1.GetComponent<SpriteRenderer>().sprite = star;
         }
